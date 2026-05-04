@@ -19,6 +19,7 @@ const user = { name: "john", email: "contact@jsmastery.com" };
 const userDropDown = () => {
   const router = useRouter();
   const handleSignOut = async () => {
+    // TODO: Clear user session/auth token here
     router.push("/sign-in");
   };
   return (
